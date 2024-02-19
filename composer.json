@@ -1,0 +1,24 @@
+{
+    "name": "peter/collections",
+    "description": "The Collections package.",
+    "license": "MIT",
+    
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peter\\Collections\\": ""
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "suggest": {
+        "symfony/var-dumper": "Required to use the dump method (^6.2)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
